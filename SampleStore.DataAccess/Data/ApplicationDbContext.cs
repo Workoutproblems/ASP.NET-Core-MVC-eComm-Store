@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace SampleStore.Data
+namespace SampleStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
