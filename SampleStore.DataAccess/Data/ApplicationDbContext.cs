@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SampleStore.Models;
 
 namespace SampleStore.DataAccess.Data
 {
@@ -12,5 +13,7 @@ namespace SampleStore.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Category { get; set; }
     }
 }
