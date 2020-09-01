@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
+    <ProjectReference Include="..\SampleStore.DataAccess\SampleStore.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SampleStore.DataAccess\SampleStore.DataAccess.csproj" />
+    <Folder Include="wwwroot\images\services\" />
   </ItemGroup>
 
 </Project>
