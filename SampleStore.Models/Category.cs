@@ -13,6 +13,7 @@ namespace SampleStore.Models
         [Required]
         [Display(Name = "Category Name")]
         public string Name { get; set; }
+
         [Required]
         [Display(Name = "Category Order")]
         public int DisplayOrder { get; set; }
