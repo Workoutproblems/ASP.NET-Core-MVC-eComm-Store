@@ -19,6 +19,7 @@ namespace SampleStore.DataAccess.Data.Repository
             // Dependency injection
             this.dbSet = context.Set<T>();
         }
+
         public void Add(T entity)
         {
             dbSet.Add(entity);
