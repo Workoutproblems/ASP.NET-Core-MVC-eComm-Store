@@ -17,7 +17,7 @@ namespace SampleStore.DataAccess.Data
         public DbSet<Category> Category { get; set; }
 
         // add Frequency here
-        //public DbSet<Frequency> Frequency { get; set; }
+        public DbSet<Frequency> Frequency { get; set; }
 
         public DbSet<Service> Service { get; set; }
     }
