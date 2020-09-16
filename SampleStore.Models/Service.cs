@@ -12,7 +12,7 @@ namespace SampleStore.Models
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "Service Name")]
+        [Display(Name ="Service Name")]
         public string Name { get; set; }
 
         [Required]
@@ -23,10 +23,10 @@ namespace SampleStore.Models
 
         [DataType(DataType.ImageUrl)]
         [Display(Name = "Image")]
-        public string ImageUlr { get; set; }
+        public string ImageUrl { get; set; }
 
         [Required]
-        public int CateggoryId { get; set; }
+        public int CategoryId { get; set; }
 
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }

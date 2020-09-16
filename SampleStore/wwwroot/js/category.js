@@ -63,6 +63,6 @@ function Delete(url) {
         });
     });
 }
-function ShowMessage(msg) {
+//function ShowMessage(msg) {
 
-}
+//}

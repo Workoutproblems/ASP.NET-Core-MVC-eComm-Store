@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using SampleStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SampleStore.Models;
 
 namespace SampleStore.DataAccess.Data.Repository.IRepository
 {
-    public interface ICategoryRepositry : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
         IEnumerable<SelectListItem> GetCategoryListForDropDown();
 
